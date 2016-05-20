@@ -35,6 +35,7 @@ informations
     import migopy
 
     class Migrations(migopy.MigrationsManager):
+        MONGO_DATABASE = # database
         MONGO_HOST = # host
         MONGO_PORT = # port
         MONGO_USER = # username
